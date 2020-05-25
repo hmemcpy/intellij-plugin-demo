@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.hmemcpy</id>
+    <name>My First IntelliJ Plugin</name>
+    <vendor>Igal Tabachnik</vendor>
+    <version>0.0.1</version>
+
+    <description><![CDATA[
+        <b>A plugin for IntelliJ written in Scala!</b>
+
+        <p>Some more details here...</p>
+        ]]></description>
+
+    <idea-version since-build="201.1" until-build="201.*"/>
+
+    <depends>org.intellij.scala</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+</idea-plugin>
