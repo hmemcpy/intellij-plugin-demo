@@ -16,7 +16,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
 
-        <!-- define your extensions here
         <localInspection implementationClass="inspections.SimplifyMapInspection"
                          displayName="Simplify discarding an effect result to .as"
                          groupName="Simplifications" groupPath="Scala,ZIO"
@@ -28,6 +27,5 @@
                          groupName="Simplifications" groupPath="Scala,ZIO"
                          level="WARNING" enabledByDefault="true"
                          language="Scala" />
-        -->
     </extensions>
 </idea-plugin>
